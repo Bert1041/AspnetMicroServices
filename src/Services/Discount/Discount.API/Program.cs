@@ -1,8 +1,11 @@
 using Discount.API.Repositories.Interfaces;
 using Discount.API.Repositories;
+using Discount.API.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.Services.MigrateDatabase<Program>();
 
 
 // Add services to the container.
