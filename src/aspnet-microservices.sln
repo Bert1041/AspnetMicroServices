@@ -23,13 +23,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{C794A0EF-A8E8-449C-8483-C23C94F41CA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Ordering\OrderingAPI\Ordering.API.csproj", "{1A88C920-089C-4FC3-BA60-4C155DE558D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Services\Ordering\OrderingAPI\Ordering.API.csproj", "{1A88C920-089C-4FC3-BA60-4C155DE558D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{E5D4EEAA-7125-4402-B1F1-D71F4BD3B483}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{E5D4EEAA-7125-4402-B1F1-D71F4BD3B483}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{0323EB64-34B8-472B-B6B8-A7FD994BB231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{0323EB64-34B8-472B-B6B8-A7FD994BB231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{3E1DB1E3-0849-4997-BA7F-5A1A787C1AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{3E1DB1E3-0849-4997-BA7F-5A1A787C1AB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{44E66A8A-EF06-4A26-9058-AE1816B0C406}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetRunBasics", "WebApps\AspnetRunBasics\AspnetRunBasics.csproj", "{4AB5D6D1-2A05-404D-AC5B-5EE5586FA44E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingWebApp", "WebApps\ShoppingWebApp\ShoppingWebApp.csproj", "{9565666D-C69D-444C-9445-964DEE628863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +79,14 @@ Global
 		{3E1DB1E3-0849-4997-BA7F-5A1A787C1AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E1DB1E3-0849-4997-BA7F-5A1A787C1AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E1DB1E3-0849-4997-BA7F-5A1A787C1AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB5D6D1-2A05-404D-AC5B-5EE5586FA44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB5D6D1-2A05-404D-AC5B-5EE5586FA44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB5D6D1-2A05-404D-AC5B-5EE5586FA44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB5D6D1-2A05-404D-AC5B-5EE5586FA44E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9565666D-C69D-444C-9445-964DEE628863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9565666D-C69D-444C-9445-964DEE628863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9565666D-C69D-444C-9445-964DEE628863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9565666D-C69D-444C-9445-964DEE628863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +104,8 @@ Global
 		{E5D4EEAA-7125-4402-B1F1-D71F4BD3B483} = {C794A0EF-A8E8-449C-8483-C23C94F41CA5}
 		{0323EB64-34B8-472B-B6B8-A7FD994BB231} = {C794A0EF-A8E8-449C-8483-C23C94F41CA5}
 		{3E1DB1E3-0849-4997-BA7F-5A1A787C1AB4} = {C794A0EF-A8E8-449C-8483-C23C94F41CA5}
+		{4AB5D6D1-2A05-404D-AC5B-5EE5586FA44E} = {44E66A8A-EF06-4A26-9058-AE1816B0C406}
+		{9565666D-C69D-444C-9445-964DEE628863} = {44E66A8A-EF06-4A26-9058-AE1816B0C406}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A99780B0-C99C-4B40-B707-31BE1429E5D3}
